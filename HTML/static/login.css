@@ -1,0 +1,78 @@
+/* Style for the login page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Link to the signup page */
+.signup-link {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.signup-link a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  color: #0056b3;
+}
